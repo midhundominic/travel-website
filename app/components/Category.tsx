@@ -35,10 +35,10 @@ export default function Category() {
       </div>
 
       <div className="text-center mb-16">
-        <p className="text-gray-400 uppercase tracking-widest text-sm">
+        <p className="font-primary text-muted font-bold uppercase tracking-widest text-md pb-2">
           Category
         </p>
-        <h2 className="text-3xl md:text-5xl font-bold text-[#1E1E4B] mt-2">
+        <h2 className="text-3xl font-secondary md:text-5xl font-bold text-[#1E1E4B] mt-2">
           We Offer Best Services
         </h2>
       </div>
@@ -49,7 +49,7 @@ export default function Category() {
           <div key={index} className="relative group">
         
             <div
-              className="absolute -bottom-6 -left-6 w-25 h-25 bg-[#DF6951] rounded-tl-[30px] rounded-br-[10px] opacity-0 scale-75  group-hover:opacity-100 group-hover:scale-100  transition-all duration-300 z-0"
+              className="absolute -bottom-6 -left-6 w-25 h-25 bg-accent rounded-tl-[30px] rounded-br-[10px] opacity-0 scale-75  group-hover:opacity-100 group-hover:scale-100  transition-all duration-300 z-0"
             ></div>
 
     
@@ -69,7 +69,7 @@ export default function Category() {
                 {item.title}
               </h3>
 
-              <p className="text-gray-500 text-sm leading-relaxed">
+              <p className="text-primary text-md leading-relaxed">
                 {item.desc}
               </p>
             </div>

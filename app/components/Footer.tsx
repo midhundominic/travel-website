@@ -8,18 +8,18 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
           <div>
-            <h2 className="text-3xl font-bold text-[#1E1E4B] relative inline-block">
+            <h2 className="text-3xl primary font-bold text-[#1E1E4B] relative inline-block">
               Jadoo.
             </h2>
 
-            <p className="text-gray-500 mt-4 text-sm leading-relaxed">
+            <p className="text-inline mt-4 text-sm leading-relaxed">
               Book your trip in minute, get full Control for much longer.
             </p>
           </div>
 
           <div>
-            <h4 className="font-semibold text-[#1E1E4B] mb-4">Company</h4>
-            <ul className="space-y-3 text-gray-500">
+            <h4 className="font-primary bold text-primary mb-4">Company</h4>
+            <ul className="space-y-3 text-inline">
               <li>About</li>
               <li>Careers</li>
               <li>Mobile</li>
@@ -28,7 +28,7 @@ export default function Footer() {
 
           <div>
             <h4 className="font-semibold text-[#1E1E4B] mb-4">Contact</h4>
-            <ul className="space-y-3 text-gray-500">
+            <ul className="space-y-3 text-inline">
               <li>Help/FAQ</li>
               <li>Press</li>
               <li>Affilates</li>
@@ -37,7 +37,7 @@ export default function Footer() {
 
           <div>
             <h4 className="font-semibold text-[#1E1E4B] mb-4">More</h4>
-            <ul className="space-y-3 text-gray-500">
+            <ul className="space-y-3 text-inline">
               <li>Airlinefees</li>
               <li>Airline</li>
               <li>Low fare tips</li>
@@ -54,7 +54,7 @@ export default function Footer() {
                   height={12}
                 />
               </div>
-
+s
               <div className="w-10 h-10 rounded-full flex items-center justify-center bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 shadow-sm">
                 <Image
                   src="/social/instagram.svg"

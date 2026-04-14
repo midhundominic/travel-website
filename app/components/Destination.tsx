@@ -37,7 +37,7 @@ export default function TopDestinations() {
       </div>
 
       <div className="text-center mb-16">
-        <p className="text-[#5E6282] font-medium">Top Selling</p>
+        <p className="text-muted font-bold pb-2">Top Selling</p>
         <h2 className="text-3xl md:text-5xl font-bold text-[#1E1E4B] mt-2">
           Top Destinations
         </h2>
@@ -60,13 +60,13 @@ export default function TopDestinations() {
 
             <div className="p-5">
               <div className="flex justify-between items-center mb-3">
-                <h3 className="font-semibold text-[#1E1E4B]">{item.title}</h3>
-                <span className="text-gray-500">{item.price}</span>
+                <h3 className="font-semibold text-muted">{item.title}</h3>
+                <span className="text-muted">{item.price}</span>
               </div>
 
-              <div className="flex items-center gap-2 text-gray-500 text-sm">
+              <div className="flex items-center gap-2 text-muted text-sm">
                 <Send size={16} color="black" fill="black" />
-                <span>{item.days}</span>
+                <span className="text-muted">{item.days}</span>
               </div>
             </div>
           </div>

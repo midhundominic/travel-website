@@ -46,7 +46,7 @@ export default function Subscribe() {
             </div>
 
             <div className="relative z-10">
-              <h2 className="text-xl md:text-3xl lg:text-[33px] font-semibold text-[#5E6282] leading-tight md:leading-snug max-w-2xl mx-auto mb-10 md:mb-14">
+              <h2 className="text-xl text-inline md:text-3xl lg:text-[33px] font-primary semibold leading-tight md:leading-snug max-w-2xl mx-auto mb-10 md:mb-14">
                 Subscribe to get information, latest news and other interesting
                 offers about Jadoo
               </h2>

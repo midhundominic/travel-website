@@ -15,17 +15,17 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-16 grid grid-cols-1 md:grid-cols-2 items-center gap-10 md:gap-0">
         <div>
-          <p className="text-[#DF6951] font-semibold uppercase mb-4 text-sm">
+          <p className="text-[#DF6951] font-primary font-bold text-lg uppercase mb-4 ">
             Best destinations around the world
           </p>
 
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#1E1E4B] leading-tight">
+          <h1 className="font-secondary text-4xl md:text-5xl lg:text-7xl font-bold text-[#181E4B] leading-tight">
             Travel, enjoy <br className="hidden lg:block"/>
             and live a new <br className="hidden lg:block"/>
             and full life
           </h1>
 
-          <p className="text-gray-500 mt-6 max-w-md">
+          <p className="font-primary text-muted mt-6 max-w-md">
             Built Wicket longer admire do barton vanity itself do in it.
             Preferred to sportsmen it engrossed listening.
           </p>

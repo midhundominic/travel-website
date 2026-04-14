@@ -8,10 +8,10 @@ export default function BookTrip() {
     <section className="py-20 bg-[#F8F8F8]">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div>
-          <p className="text-[#5E6282] font-medium mb-3">Easy and Fast</p>
+          <p className="text-muted font-medium mb-3">Easy and Fast</p>
 
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#1E1E4B] leading-tight mb-10">
-            Book Your Next Trip <br className="hidden md:block" /> In 3 Easy Steps
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-secondary font-bold text-primary leading-tight mb-10">
+            Book Your Next Trip In 3 Easy Steps
           </h2>
 
           <div className="flex gap-4 mb-8">
@@ -24,10 +24,8 @@ export default function BookTrip() {
               />
             </div>
             <div>
-              <h4 className="font-semibold text-[#1E1E4B]">
-                Choose Destination
-              </h4>
-              <p className="text-gray-500 text-sm">
+              <h4 className="font-primary text-muted">Choose Destination</h4>
+              <p className="text-muted text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                 tortor tempus.
               </p>
@@ -44,8 +42,8 @@ export default function BookTrip() {
               />
             </div>
             <div>
-              <h4 className="font-semibold text-[#1E1E4B]">Make Payment</h4>
-              <p className="text-gray-500 text-sm">
+              <h4 className="font-primary text-muted">Make Payment</h4>
+              <p className="text-muted text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                 tortor tempus.
               </p>
@@ -62,10 +60,10 @@ export default function BookTrip() {
               />
             </div>
             <div>
-              <h4 className="font-semibold text-[#1E1E4B]">
+              <h4 className="font-primary text-muted">
                 Reach Airport on Selected Date
               </h4>
-              <p className="text-gray-500 text-sm">
+              <p className="text-muted text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna,
                 tortor tempus.
               </p>
@@ -86,27 +84,25 @@ export default function BookTrip() {
               />
             </div>
 
-            <h3 className="font-semibold text-[#1E1E4B] mb-2">
-              Trip To Greece
-            </h3>
+            <h3 className="font-semibold text-primary mb-2">Trip To Greece</h3>
 
-            <p className="text-gray-400 text-sm mb-4">
+            <p className="text-inline font-primary text-sm mb-4">
               14–29 June | by Robbin joseph
             </p>
 
             <div className="flex gap-3 mb-4">
               <div className="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full">
-                <Leaf size={16} fill="black" />
+                <Leaf size={16} className="text-inline" />
               </div>
               <div className="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full">
-                <Map size={16} fill="black" />
+                <Map size={16} className="text-inline" />
               </div>
               <div className="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full">
-                <Send size={16} fill="black" />
+                <Send size={16} className="text-inline" />
               </div>
             </div>
 
-            <div className="flex justify-between items-center text-sm text-gray-500">
+            <div className="flex justify-between items-center text-sm text-inline">
               <div className="flex items-center gap-2">
                 <Building2 size={16} />
                 <span>24 people going</span>

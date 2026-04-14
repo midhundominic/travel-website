@@ -43,9 +43,9 @@ export default function Testimonials() {
     <section className="py-30 bg-[#F8F8F8]">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div>
-          <p className="text-gray-400 font-semibold mb-4">TESTIMONIALS</p>
+          <p className="text-muted font-primary font-semibold mb-4">TESTIMONIALS</p>
 
-          <h2 className="text-3xl md:text-5xl font-bold text-[#1E1E4B] leading-tight mb-10">
+          <h2 className="text-3xl md:text-5xl font-secondary font-bold text-primary leading-tight mb-10">
             What People Say <br /> About Us.
           </h2>
 
@@ -85,9 +85,9 @@ export default function Testimonials() {
               {active.text}
             </p>
 
-            <h4 className="font-semibold text-[#1E1E4B]">{active.name}</h4>
+            <h4 className="font-primary font-semibold text-[#1E1E4B]">{active.name}</h4>
 
-            <p className="text-gray-400 text-sm">{active.location}</p>
+            <p className="text-inline text-sm">{active.location}</p>
           </div>
 
           <div className="relative lg:absolute lg:-right-8 top-12 lg:top-1/2 lg:-translate-y-1/2 flex flex-row lg:flex-col justify-center gap-4 transition-all">
