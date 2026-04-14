@@ -17,13 +17,12 @@ export default function LogoCarousel() {
 
         <div className="relative w-full overflow-hidden">
 
-          {/* TRACK */}
           <div className="flex w-max animate-logo-scroll">
 
             {[...logos, ...logos].map((logo, index) => (
               <div
                 key={index}
-                className="flex items-center justify-center mx-10 min-w-[150px] grayscale hover:grayscale-0 transition"
+                className="flex items-center justify-center mx-10 min-w-37.5 grayscale hover:grayscale-0 transition"
               >
                 <Image
                   src={logo}

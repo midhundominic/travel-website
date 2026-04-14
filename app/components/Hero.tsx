@@ -47,7 +47,17 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative flex justify-center ">
+        <div className="relative flex justify-center mt-10 md:mt-0 w-full">
+          {/*  Plane */}
+          <div className="hidden md:block absolute top-[10%] md:-left-[5%] lg:-left-[10%] xl:-left-[2%] w-28 h-28 lg:w-40 lg:h-40 z-0">
+            <Image
+              src="/plane.svg"
+              alt="left flight"
+              fill
+              className="object-contain"
+            />
+          </div>
+
           <Image
             src="/Traveller.png"
             alt="Traveler"
@@ -55,6 +65,16 @@ export default function Hero() {
             height={1000}
             className="object-contain relative z-10"
           />
+
+          {/* Plane */}
+          <div className="hidden md:block absolute top-[10%] md:-right-[5%] lg:-right-[8%] xl:-right-[12%] w-28 h-28 lg:w-40 lg:h-40 z-0">
+            <Image
+              src="/plane.svg"
+              alt="right flight"
+              fill
+              className="object-contain"
+            />
+          </div>
         </div>
       </div>
     </section>
