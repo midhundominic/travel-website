@@ -4,6 +4,9 @@ import Category from "./components/Category";
 import TopDestinations from "./components/Destination";
 import BookTrip from "./components/BookTrip";
 import Testimonials from "./components/Testimonial";
+import LogoCarousel from "./components/Carosel";
+
+
 
 const page = () => {
   return (
@@ -14,6 +17,7 @@ const page = () => {
       <TopDestinations/>
       <BookTrip/>
       <Testimonials/>
+      <LogoCarousel/>
     </main>
   );
 };
