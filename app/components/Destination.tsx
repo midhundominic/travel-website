@@ -43,7 +43,7 @@ export default function TopDestinations() {
         </h2>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8 md:gap-10 relative z-10">
         {destinations.map((item, index) => (
           <div
             key={index}

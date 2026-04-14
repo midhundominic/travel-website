@@ -41,7 +41,7 @@ export default function Testimonials() {
 
   return (
     <section className="py-30 bg-[#F8F8F8]">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div>
           <p className="text-gray-400 font-semibold mb-4">TESTIMONIALS</p>
 
@@ -61,8 +61,8 @@ export default function Testimonials() {
           </div>
         </div>
 
-        <div className="relative">
-          <div className="absolute top-12 left-8 w-125 h-70 bg-white/40 rounded-2xl shadow-md p-6 flex flex-col justify-end z-10">
+        <div className="relative mt-16 lg:mt-0">
+          <div className="absolute top-8 left-4 md:top-12 md:left-8 w-full max-w-[90%] md:max-w-[450px] h-[220px] md:h-[260px] bg-white/40 rounded-2xl shadow-md p-6 flex flex-col justify-end z-10 transition-all">
             <h4 className="font-semibold text-[#1E1E4B] mb-1">
               {nextTestimonial.name}
             </h4>
@@ -70,7 +70,7 @@ export default function Testimonials() {
             <p className="text-gray-400 text-sm">{nextTestimonial.location}</p>
           </div>
 
-          <div className="relative z-20 bg-white rounded-2xl shadow-xl p-8 w-125 h-60 flex flex-col">
+          <div className="relative z-20 bg-white rounded-2xl shadow-xl p-6 md:p-8 w-full max-w-[90%] md:max-w-[450px] h-[220px] md:h-[240px] flex flex-col transition-all">
             <div className="absolute -top-8 left-8">
               <Image
                 src={active.image}
@@ -90,7 +90,7 @@ export default function Testimonials() {
             <p className="text-gray-400 text-sm">{active.location}</p>
           </div>
 
-          <div className="absolute -right-12.5 top-1/2 -translate-y-1/2 flex flex-col gap-4">
+          <div className="relative lg:absolute lg:-right-8 top-12 lg:top-1/2 lg:-translate-y-1/2 flex flex-row lg:flex-col justify-center gap-4 transition-all">
             <button
               onClick={prev}
               className="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-md hover:bg-gray-100"

@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className="w-full absolute top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-90">
+        <div className="flex items-center gap-10 lg:gap-24 xl:gap-40">
           <Link href="/">
             <Image
               src="/logo.svg"
@@ -23,7 +23,7 @@ export default function Header() {
             />
           </Link>
 
-          <nav className="hidden md:flex items-center gap-18 text-gray-700">
+          <nav className="hidden md:flex items-center gap-8 lg:gap-12 text-gray-700">
             <Link href="#">Destinations</Link>
             <Link href="#">Hotels</Link>
             <Link href="#">Flights</Link>
@@ -47,8 +47,16 @@ export default function Header() {
         </button>
       </div>
 
+      {/* Mobile Menu Overlay */}
+      {menuOpen && (
+        <div
+          className="fixed inset-0 bg-black/40 z-40 md:hidden transition-opacity"
+          onClick={() => setMenuOpen(false)}
+        ></div>
+      )}
+
       <div
-        className={`fixed top-0 right-0 h-full w-[75%] max-w-sm bg-[#FDEEDC] shadow-2xl transform transition-transform duration-300 z-40
+        className={`fixed top-0 right-0 h-full w-[75%] max-w-sm bg-[#FDEEDC] shadow-2xl transform transition-transform duration-300 z-50
         ${menuOpen ? "translate-x-0" : "translate-x-full"}`}
       >
         <div className="p-6 flex flex-col h-full">

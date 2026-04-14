@@ -6,12 +6,12 @@ import { Leaf, Map, Send, Building2, Heart } from "lucide-react";
 export default function BookTrip() {
   return (
     <section className="py-20 bg-[#F8F8F8]">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div>
           <p className="text-[#5E6282] font-medium mb-3">Easy and Fast</p>
 
-          <h2 className="text-3xl md:text-6xl font-bold text-[#1E1E4B] leading-tight mb-10">
-            Book Your Next Trip <br /> In 3 Easy Steps
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#1E1E4B] leading-tight mb-10">
+            Book Your Next Trip <br className="hidden md:block" /> In 3 Easy Steps
           </h2>
 
           <div className="flex gap-4 mb-8">
@@ -73,10 +73,10 @@ export default function BookTrip() {
           </div>
         </div>
 
-        <div className="relative flex justify-center">
-          <div className="absolute right-0 top-1/2 -translate-y-1/2 w-75 h-75 bg-[#59B1E6] opacity-30 blur-[120px] rounded-full"></div>
+        <div className="relative flex justify-center mt-10 lg:mt-0">
+          <div className="absolute right-0 top-1/2 -translate-y-1/2 w-64 h-64 md:w-[350px] md:h-[350px] bg-[#59B1E6] opacity-30 blur-[100px] md:blur-[120px] rounded-full"></div>
 
-          <div className="bg-white rounded-2xl shadow-xl p-5 w-[320px] relative">
+          <div className="bg-white rounded-2xl shadow-xl p-5 w-full max-w-[320px] relative z-10">
             <div className="relative w-full h-40 rounded-xl overflow-hidden mb-4">
               <Image
                 src="/book-trip/greece.jpg"
@@ -114,7 +114,7 @@ export default function BookTrip() {
               <Heart size={18} color="#4152CA" />
             </div>
 
-            <div className="absolute -right-20 bottom-10 bg-white shadow-lg rounded-xl p-4 w-55">
+            <div className="absolute -right-4 sm:-right-20 -bottom-12 sm:bottom-10 bg-white shadow-lg rounded-xl p-4 w-[220px] sm:w-[250px] z-20">
               <p className="text-xs text-gray-400 mb-1">Ongoing</p>
 
               <div className="flex gap-3 items-center mb-2">

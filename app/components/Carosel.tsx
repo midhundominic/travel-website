@@ -22,7 +22,7 @@ export default function LogoCarousel() {
             {[...logos, ...logos].map((logo, index) => (
               <div
                 key={index}
-                className="flex items-center justify-center mx-10 min-w-37.5 grayscale hover:grayscale-0 transition"
+                className="flex items-center justify-center mx-6 sm:mx-10 min-w-25 md:min-w-37.5 grayscale hover:grayscale-0 transition"
               >
                 <Image
                   src={logo}

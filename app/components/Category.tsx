@@ -30,7 +30,7 @@ export default function Category() {
   return (
     <section className="relative py-20 bg-[#F8F8F8] overflow-hidden">
 
-      <div className="absolute top-20 right-20 w-32 h-32 opacity-70">
+      <div className="absolute top-10 right-2 md:top-20 md:right-20 w-20 h-20 md:w-32 md:h-32 opacity-70">
         <Image src="/plus.svg" alt="pattern" fill className="object-contain" />
       </div>
 
@@ -44,7 +44,7 @@ export default function Category() {
       </div>
 
 
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
         {services.map((item, index) => (
           <div key={index} className="relative group">
         

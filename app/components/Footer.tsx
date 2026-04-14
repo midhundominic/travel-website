@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#F8F8F8] pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid md:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
           <div>
             <h2 className="text-3xl font-bold text-[#1E1E4B] relative inline-block">
               Jadoo.
