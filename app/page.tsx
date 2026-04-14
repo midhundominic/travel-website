@@ -5,7 +5,7 @@ import TopDestinations from "./components/Destination";
 import BookTrip from "./components/BookTrip";
 import Testimonials from "./components/Testimonial";
 import LogoCarousel from "./components/Carosel";
-
+import SubscribeSection from "./components/NewsLetter";
 
 
 const page = () => {
@@ -18,6 +18,7 @@ const page = () => {
       <BookTrip/>
       <Testimonials/>
       <LogoCarousel/>
+      <SubscribeSection/>
     </main>
   );
 };
