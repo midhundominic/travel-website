@@ -40,7 +40,7 @@ export default function Header() {
         </div>
 
         <button
-          className="md:hidden text-2xl z-50 text-black z-0"
+          className="md:hidden text-2xl z-50 text-black"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           ☰

@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Category from "./components/Category";
 import TopDestinations from "./components/Destination";
+import BookTrip from "./components/BookTrip";
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
       <Hero />
       <Category/>
       <TopDestinations/>
+      <BookTrip/>
     </main>
   );
 };
