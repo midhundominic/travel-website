@@ -15,7 +15,7 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-16 grid md:grid-cols-2 items-center gap-0">
         <div>
-          <p className="text-orange-500 font-semibold uppercase mb-4 text-sm">
+          <p className="text-[#DF6951] font-semibold uppercase mb-4 text-sm">
             Best destinations around the world
           </p>
 

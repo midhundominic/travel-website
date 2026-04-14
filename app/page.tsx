@@ -6,6 +6,7 @@ import BookTrip from "./components/BookTrip";
 import Testimonials from "./components/Testimonial";
 import LogoCarousel from "./components/Carosel";
 import SubscribeSection from "./components/NewsLetter";
+import Footer from "./components/Footer";
 
 
 const page = () => {
@@ -19,6 +20,7 @@ const page = () => {
       <Testimonials/>
       <LogoCarousel/>
       <SubscribeSection/>
+      <Footer/>
     </main>
   );
 };

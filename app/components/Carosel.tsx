@@ -12,7 +12,7 @@ const logos = [
 
 export default function LogoCarousel() {
   return (
-    <section className="py-20 bg-[#F8F8F8] overflow-hidden">
+    <section className="py-20 bg-[#FFFFFF] overflow-hidden">
       <div className="max-w-full mx-auto px-6">
 
         <div className="relative w-full overflow-hidden">
