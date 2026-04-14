@@ -54,7 +54,6 @@ export default function Footer() {
                   height={12}
                 />
               </div>
-s
               <div className="w-10 h-10 rounded-full flex items-center justify-center bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 shadow-sm">
                 <Image
                   src="/social/instagram.svg"
