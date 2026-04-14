@@ -10,37 +10,45 @@ export default function Header() {
 
   return (
     <header className="w-full absolute top-0 left-0 z-50">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="flex items-center gap-10 lg:gap-24 xl:gap-40">
-          <Link href="/">
-            <Image
-              src="/logo.svg"
-              alt="Jadoo Logo"
-              width={110}
-              height={40}
-              className="object-contain"
-              priority
-            />
+      <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+        <Link href="/">
+          <Image
+            src="/logo.svg"
+            alt="Jadoo Logo"
+            width={110}
+            height={40}
+            className="object-contain"
+            priority
+          />
+        </Link>
+
+        <div className="hidden md:flex items-center gap-6 lg:gap-10 xl:gap-14 text-gray-800 font-medium">
+          <Link href="#" className="hover:text-black">
+            Destinations
           </Link>
+          <Link href="#" className="hover:text-black">
+            Hotels
+          </Link>
+          <Link href="#" className="hover:text-black">
+            Flights
+          </Link>
+          <Link href="#" className="hover:text-black">
+            Bookings
+          </Link>
+          <button className="hover:text-black">Login</button>
 
-          <nav className="hidden md:flex items-center gap-8 lg:gap-12 text-gray-700">
-            <Link href="#">Destinations</Link>
-            <Link href="#">Hotels</Link>
-            <Link href="#">Flights</Link>
-            <Link href="#">Bookings</Link>
-          </nav>
-        </div>
-
-        <div className="hidden md:flex items-center gap-8 text-gray-700">
-          <button>Login</button>
-          <button className="border px-4 py-2 rounded-lg hover:bg-yellow-400 transition">
+          <button className="border border-gray-800 px-5 py-2 rounded-[5px] hover:bg-yellow-400 hover:border-transparent transition">
             Sign up
           </button>
-          <span className="text-sm cursor-pointer">EN ▾</span>
+
+          <div className="flex items-center gap-1 cursor-pointer hover:text-black">
+            <span>EN</span>
+            <ChevronDown size={16} />
+          </div>
         </div>
 
         <button
-          className="md:hidden text-2xl z-50 text-black"
+          className="md:hidden text-2xl z-50 text-black ml-auto"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           ☰
